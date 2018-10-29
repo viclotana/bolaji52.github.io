@@ -6,10 +6,12 @@
       accordion: false
       });
 
+      $(".dropdown-trigger").dropdown(
+        {hover: true}
+      );
       $('.sidenav').sidenav();
       $('.slider').slider();
   
   
     }); // end of document ready
   })(jQuery); // end of jQuery name space
-  
