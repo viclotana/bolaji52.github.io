@@ -11,29 +11,35 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
-  <div class="navbar-fixed">
-  <nav class="white" role="navigation">
-    <div class="nav-wrapper" >
-      <a href="/index.html" class="brand-logo teal-text">  <img class="braa" src="logo1.JPG" alt="logo" /></a>
-      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="/index.html"><i class="teal-text material-icons left">home</i>Home</a></li>
-        <li><a href="/index.html#about"><i class="teal-text material-icons left">group</i>About</a></li>
-        <li><a href="/trainings.html"><i class="teal-text material-icons left">extension</i>Trainings</a></li>
-        <li><a href="#top"><i class="teal-text material-icons left">notifications_active</i>Careers</a></li>
-        <li><a href="/index.html#contact"><i class="teal-text material-icons left">phone_iphone</i>Contact Us</a></li>
-      </ul>
-    </div>
-  </nav>
-  <ul class="sidenav" id="mobile-demo">
-    <li><a href="/index.html">Home</a></li>
-    <li><a href="/index.html#about">About Us</a></li>
-    <li><a href="/trainings.html">Trainings</a></li>
-    <li><a href="#top">Careers</a></li>
-    <li><a href="/index.html#contact">Contact Us</a></li>
-  </ul>
-
-</div>
+    <div class="navbar-fixed">
+        <nav class="white" role="navigation">
+          <div class="nav-wrapper" >
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <a href="/index.html" class="brand-logo teal-text">  <img class="braa" src="logo1.JPG" alt="logo" /></a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="/index.html"><i class="teal-text material-icons left">home</i>Home</a></li>
+              <li><a href="/index.html#about"><i class="teal-text material-icons left">group</i>About Us</a></li>
+              <li><a class="dropdown-trigger" href="/services.html" data-target="dropdown1"><i class="teal-text material-icons left">extension</i>Services</a></li>
+              <li><a href="/index.html#contact"><i class="teal-text material-icons left">phone_iphone</i>Contact Us</a></li>
+            </ul>
+          </div>
+        </nav>
+        <!-- dropdown content -->
+        <ul id="dropdown1" class="dropdown-content">
+            <li><a href="/services.html#cc">Clinical Contracting</a></li>
+            <li class="divider"></li>
+            <li><a href="/services.html#fsp">Functional Service Providers (FSP)</a></li>
+            <li class="divider"></li>
+            <li><a href="/services.html#crs">Remote Clinical Staffing</a></li>
+        <!-- mobile navbar -->
+        <ul class="sidenav" id="mobile-demo">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/index.html#about">About Us</a></li>
+          <li><a href="/services.html">Services</a></li>
+          <li><a href="/index.html#contact">Contact Us</a></li>
+        </ul>
+      
+      </div>
   <div class="slider" id="top">
       <ul class="slides">
         <li>
