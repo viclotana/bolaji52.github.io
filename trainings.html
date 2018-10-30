@@ -11,29 +11,36 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
-  <div class="navbar-fixed">
-  <nav class="white" role="navigation">
-    <div class="nav-wrapper" >
-      <a href="/index.html" class="brand-logo teal-text">  <img class="braa" src="logo1.JPG" alt="logo" /></a>
-      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="/index.html"><i class="teal-text material-icons left">home</i>Home</a></li>
-        <li><a href="/index.html#about"><i class="teal-text material-icons left">group</i>About</a></li>
-        <li><a href="#top"><i class="teal-text material-icons left">extension</i>Trainings</a></li>
-        <li><a href="/careers.html"><i class="teal-text material-icons left">notifications_active</i>Careers</a></li>
-        <li><a href="/index.html#contact"><i class="teal-text material-icons left">phone_iphone</i>Contact Us</a></li>
-      </ul>
-    </div>
-  </nav>
-  <ul class="sidenav" id="mobile-demo">
-    <li><a href="/index.html">Home</a></li>
-    <li><a href="/index.html#about">About Us</a></li>
-    <li><a href="#top">Trainings</a></li>
-    <li><a href="/careers.html">Careers</a></li>
-    <li><a href="/index.html#contact">Contact Us</a></li>
-  </ul>
+    <div class="navbar-fixed">
+        <nav class="white" role="navigation">
+          <div class="nav-wrapper" >
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <a href="/index.html" class="brand-logo teal-text">  <img class="braa" src="logo1.JPG" alt="logo" /></a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="/index.html"><i class="teal-text material-icons left">home</i>Home</a></li>
+              <li><a href="/index.html#about"><i class="teal-text material-icons left">group</i>About Us</a></li>
+              <li><a class="dropdown-trigger" href="/services.html" data-target="dropdown1"><i class="teal-text material-icons left">extension</i>Services</a></li>
+              <li><a href="/index.html#contact"><i class="teal-text material-icons left">phone_iphone</i>Contact Us</a></li>
+            </ul>
+          </div>
+        </nav>
+        <!-- dropdown content -->
+        <ul id="dropdown1" class="dropdown-content">
+            <li><a href="/services.html#cc">Clinical Contracting</a></li>
+            <li class="divider"></li>
+            <li><a href="/services.html#fsp">Functional Service Providers (FSP)</a></li>
+            <li class="divider"></li>
+            <li><a href="/services.html#crs">Remote Clinical Staffing</a></li>
+        <!-- mobile navbar -->
+        <ul class="sidenav" id="mobile-demo">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/index.html#about">About Us</a></li>
+          <li><a href="/services.html">Services</a></li>
+          <li><a href="/index.html#contact">Contact Us</a></li>
+        </ul>
+      
+      </div>
 
-</div>
   <div class="slider" id="top">
       <ul class="slides">
         <li>
@@ -121,61 +128,63 @@
     </ul>
     </div>
     
-  <footer class="page-footer teal">
-    <div class="container">
-      <div class="row">
-          <div class="col l6 s12" id="about">
-              <h5 class="white-text">About Us</h5>
-              <ul>
-                <li><a class="white-text" href="#!">The United States clinical research industry market is estimated to
-                   reach about $22 billion by 2021. The employment rate in the industry has soared, growing rapidly above
-                    the growth rate of other industries. On the other hand there is a shortage of qualified clinical
-                     research professionals to effectively and efficiently manage the process. The Capital Staffing has a
-                      100% success track record in industry job placement. We strive to ensure that students are properly
-                       trained to industry standard, thereby making the job placement process seamless. Our Job placement
-                        specialist will help our students with networking, developing application strategies and outreach 
-                        to pharmaceutical and clinical research organizations to ensure they find meaningful employment in
-                         the field. You can start your dream job in weeks</a></li>
-              </ul>
-            </div>
-
-        <div class="col l6 s12" id="contact">
-          <h5 class="white-text">Contact Us</h5>
-          <div>
-          <form action="mailto:training@thecapitalstaffing.com" method="post" enctype="text/plain">
-              <div class="input-field">
-                <input value="" id="name" type="text" class="validate">
-                <label class="active" for="name">Name*</label>
+    <footer class="page-footer teal">
+      <div class="container">
+        <div class="row" >
+            <div class="col l12 s12">
+                <h5 class="white-text" >About Us</h5>
+                <ul>
+                  <li><a class="white-text" href="#!">ClinMed brings over 20 years of developing
+                     relationships within the Biometrics, Medical Affairs, and Clinical Operations. 
+                      ClinMed’s credibility and proven track record puts us on the top of our clients
+                       list as the go to vendor for resourcing solutions. Leading pharmaceutical and 
+                       medical device companies have chosen ClinMed as their preferred partner for its 
+                       quality customer service, excellent candidate profile and their long-term relationships</a></li>
+                </ul>
               </div>
-              <br>
-              <div class="input-field">
-                <input value="" id="email" type="email" class="validate">
-                <label class="active" for="email">Email*</label>
-              </div>
-              <br>
-              <div class="input-field">
-                <input value="" id="company" type="text" class="validate">
-                <label class="active" for="company">Company*</label>
-              </div>
-              <br>
-              <div class="input-field">
-                  <input value="" id="message" type="text" class="validate">
-                  <label class="active" for="message">Message</label>
+        </div> <hr>
+        <div class="row">
+          <div class="col l12 s12" id="contact">
+            <h5 class="white-text">Contact Us</h5>
+            <div>
+              <form action="mailto:training@thecapitalstaffing.com" method="post" enctype="text/plain">
+                <div class="input-field">
+                  <input value="" id="name" type="text" class="validate">
+                  <label class="active" for="name">Name*</label>
                 </div>
-                <a href="#" id="download-button"
-               class="btn-small waves-effect waves-light teal lighten-1 modal-trigger modal-close">Contact us</a>
-            </form>
-            </div>
+                <br>
+                <div class="input-field">
+                  <input value="" id="email" type="email" class="validate">
+                  <label class="active" for="email">Email*</label>
+                </div>
+                <br>
+                <div class="input-field">
+                  <input value="" id="phone" type="tel" class="validate">
+                  <label class="active" for="phone">Phone*</label>
+                </div>
+                <br>
+                <div class="input-field">
+                  <input value="" id="company" type="text" class="validate">
+                  <label class="active" for="company">Company*</label>
+                </div>
+                <br>
+                <div class="input-field">
+                    <input value="" id="message" type="text" class="validate">
+                    <label class="active" for="message">Message</label>
+                  </div>
+                  <a href="#modal1" id="download-button"
+                 class="btn-small waves-effect waves-light teal lighten-1 modal-trigger modal-close">Contact us</a>
+                </form>
+                </div>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="footer-copyright">
-      <div class="container">
-          Copyright © clinmedstaffing.com. All rights reserved.
+      <div class="footer-copyright">
+        <div class="container">
+            Copyright © clinmedstaffing.com. All rights reserved.
+        </div>
       </div>
-    </div>
-  </footer>
-
+    </footer>
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
